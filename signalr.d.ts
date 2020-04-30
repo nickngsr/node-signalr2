@@ -1,4 +1,8 @@
 /// <reference types="@types/signalr" />
-export declare const hubConnection: SignalR.Hub.HubCreator
-export declare const connection: SignalR
-export declare const SignalR: SignalR
+declare module 'node-signalr2' {
+  const hubConnection: JQueryStatic
+  const connection: SignalR
+  const SignalR: SignalR
+}
+
+
