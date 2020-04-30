@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "build/signalr.js",
-  "scripts": {
-    "build": "babel src --presets babel-preset-es2015 --out-dir build"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,11 +11,6 @@
     "jsdom": "^16.2.2"
   },
   "devDependencies": {
-    "@types/signalr": "^2.2.36",
-    "babel-cli": "6.18.0",
-    "babel-core": "6.21.0",
-    "babel-eslint": "*",
-    "babel-preset-es2015": "*",
-    "babel-preset-stage-0": "*"
+    "@types/signalr": "^2.2.36"
   }
 }
