@@ -1,14 +1,14 @@
 {
   "name": "node-signalr2",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "The lazy mans approach to getting an up to date asp.net signalR client in node",
   "main": "./signalr.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.5.0",
-    "jsdom": "^16.2.2"
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0"
   },
   "devDependencies": {
     "@types/signalr": "^2.2.36"
